@@ -624,10 +624,12 @@
 .fa-phone-square:before {
   content: "\f098";
 }
-.fa-twitter:before {
+.fa-user-circle:before {
   content: "\f099";
 }
-.fa-facebook-f:before,
+.fa-address-book:before{
+  content: "\f100";
+}
 .fa-facebook:before {
   content: "\f09a";
 }

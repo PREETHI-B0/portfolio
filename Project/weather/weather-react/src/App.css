@@ -1,0 +1,158 @@
+
+/* index.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the app vertically */
+.bg-gray-800 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container styles */
+.bg-white {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and button styles */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.border-b {
+  border-bottom: 1px solid #ccc;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.border-gray-200 {
+  border-color: #ccc;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+/* Weather container styles */
+.duration-300 {
+  transition-duration: 0.3s;
+}
+
+.delay-75 {
+  transition-delay: 0.75s;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.h-[27rem] {
+  height: 27rem;
+}
+
+.h-0 {
+  height: 0;
+}
+
+/* Loading spinner styles */
+.grid {
+  display: grid;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.animate-spin {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Weather info styles */
+.text-center {
+  text-align: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-zinc-800 {
+  color: #333; /* You can define the color you want */
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.text-2xl {
+  font-size: 1.75rem;
+}
+
+/* Temperature styles */
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+/* Add more styles as needed */
+
+/* You can also define custom styles for specific elements if required */
